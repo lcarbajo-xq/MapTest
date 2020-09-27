@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 24px;
+  position: sticky;
+  /* --header-brand-color: #FF385C */
+}
+
+.header img {
+  width: 49px;
+  height: 49px;
+  object-fit: contain;
+}
+
+.header nav {
+  border: 1px solid #bfbeba;
+  color: red;
+  border-radius: 90px;
+  padding: 5px;
+}
+
+.header form {
+  padding: 0 40px;
+}
